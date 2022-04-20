@@ -1,8 +1,34 @@
-body {
-  background-color: #ffd6e0;
+:root {
+  --primary-color: #ffd6e0;
+  --secondary-color: #d77fc1;
 }
 
-h1 {
+.hero {
+  background-color: var(--primary-color);
   text-align: center;
-  color: #ffd6e0;
+  padding: 150px 150px;
+  font-family: poppings;
+}
+
+.hero h1 {
+  font-size: 96px;
+  line-height: 1;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  line-height: 5;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.button :hover {
+  color: black;
+}
+
+.hero p {
+  font-size: 24px;
 }
