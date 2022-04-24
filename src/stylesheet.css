@@ -101,6 +101,7 @@
   }
   .hero p {
     margin-top: 20px;
+    text-align: center;
   }
   #weatherimg {
     padding-top: 30px;
