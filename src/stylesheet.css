@@ -16,7 +16,7 @@
 }
 
 h3 {
-  font-size: 88px;
+  font-size: 90px;
   font-weight: bold;
 }
 
@@ -25,6 +25,7 @@ h3 {
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: -120px;
+  position: absolute;
 }
 
 .button {
@@ -50,9 +51,21 @@ h3 {
 }
 
 .duties {
-  max-height: 250px;
+  max-height: 200px;
 }
 
 .weatherApp {
-  max-width: 100px;
+  max-width: 200px;
+}
+
+@media (max-width: 600px) {
+  .jasonVorhees {
+    display: none;
+  }
+  .duties {
+    display: none;
+  }
+  .weatherApp {
+    display: none;
+  }
 }
