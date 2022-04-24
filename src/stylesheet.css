@@ -59,6 +59,9 @@ h3 {
 }
 
 @media (max-width: 600px) {
+  .context p {
+    text-align: center;
+  }
   .jasonVorhees {
     display: none;
   }
