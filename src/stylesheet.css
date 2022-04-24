@@ -15,6 +15,13 @@
   line-height: 1;
 }
 
+.surname {
+  text-align: left;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: -120px;
+}
+
 .button {
   background-color: var(--secondary-color);
   padding: 15px 30px;
