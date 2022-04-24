@@ -15,6 +15,11 @@
   line-height: 1;
 }
 
+h3 {
+  font-size: 88px;
+  font-weight: bold;
+}
+
 .surname {
   text-align: left;
   writing-mode: vertical-rl;
@@ -38,4 +43,16 @@
 
 .hero p {
   font-size: 24px;
+}
+
+.jasonVorhees {
+  max-width: 200px;
+}
+
+.duties {
+  max-height: 250px;
+}
+
+.weatherApp {
+  max-width: 100px;
 }
