@@ -3,6 +3,9 @@
   --secondary-color: #d77fc1;
 }
 
+body {
+  background-color: var(--secondary-color);
+}
 .about-content {
   background-color: var(--primary-color);
   margin-left: 150px;
