@@ -8,7 +8,8 @@
 }
 
 .about-content,
-.work-content {
+.work-content,
+.contact-content {
   background-color: var(--primary-color);
   margin-left: 150px;
 }
@@ -18,7 +19,16 @@
   padding: 150px 150px;
   font-family: poppings;
 }
-
+.contact-content h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+#instagram {
+  text-align: center;
+}
+#twitter {
+  text-align: right;
+}
 .hero h3 {
   position: absolute;
   text-align: center;
@@ -92,7 +102,10 @@
 }
 .jason {
   max-width: 400px;
-  border-radius: 2%;
+  border-radius: 1%;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
 #top {
@@ -101,15 +114,21 @@
 
 .duties {
   max-height: 400px;
-  border-radius: 4%;
+  border-radius: 1%;
   border: solid white;
   padding: 10px 30px;
   background-color: white;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
 .weather {
   max-width: 400px;
-  border-radius: 4%;
+  border-radius: 1%;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .hero p {
