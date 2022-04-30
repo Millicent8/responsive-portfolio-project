@@ -207,6 +207,17 @@ nav a:hover {
   transition: all 200ms ease-in-out;
 }
 
+footer a {
+  line-height: 20;
+}
+footer li {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer i {
+  color: var(--primary-color);
+}
 @media (max-width: 700px) {
   nav h1 {
     display: none;
