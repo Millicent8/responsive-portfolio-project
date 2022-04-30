@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffd6e0;
   --secondary-color: #d77fc1;
+  --button-colour: #f6e533;
 }
 
 .work-content {
@@ -182,8 +183,37 @@
   font-weight: bold;
   font-size: 30px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 10px;
+  list-style: none;
+  line-height: 60px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav li.active a,
+nav a:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
+}
 
 @media (max-width: 700px) {
+  nav h1 {
+    display: none;
+  }
+  nav ul {
+    margin-left: 50px;
+  }
   .hero img {
     display: none;
   }
