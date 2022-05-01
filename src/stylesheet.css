@@ -23,7 +23,7 @@
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 20px 150px;
+  padding: 40px 150px;
   font-family: poppings;
 }
 .contact-content h1 {
